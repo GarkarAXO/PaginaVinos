@@ -1,9 +1,5 @@
-<?php
-require 'php/conexion.php';
-$errors = array();
-if(!empty($_POST)){
-  
-}
+<?php 
+include("php/proteccion.php");
 ?>
 
 <?php require('./layout/header.php') ?>

@@ -52,7 +52,7 @@
         <div class="informacion">
            <span class="precio">$504.00</span>
            <span class="costo-envio">Envio Gratis</span>
-           <span class="product-title">Jardin Secreto 750ml</span>
+           <h2 class="product-title">Jardin Secreto 750ml</h2>
            <div>
              <button class="btn-agregar" type="button">Agregar</button>
            </div>
@@ -77,12 +77,12 @@
 
     <div class="product-card">
       <div class="productoini">
-        <img class="bandera" src="assets/images/paises/mexico.png" alt="Pais">
-        <a href="/vinospage/granrvacabsauv.php"><img class="vino-bottle" src="assets/images/productos vinos/GranRvaCabSauv/GranRvaCabSauv1.png" alt=""></a>
+        <img class="bandera" src="assets/images/paises/Escocia.png" alt="Pais">
+        <a href="/vinospage/"><img src="assets/images/productos vinos/destilados/buchanans.jpg" class="vino-bottle" alt=""></a>
         <div class="informacion">
-           <span class="precio">$952.80</span>
+           <span class="precio">$661.50</span>
            <span class="costo-envio">Envio Gratis</span>
-           <h2 class="product-title">Cabernet Sauvignon</h2>
+           <h2 class="product-title">Buchanans 12 Años</h2>
            <div>
              <button class="btn-agregar" type="button">Agregar</button>
            </div>
@@ -92,12 +92,12 @@
 
     <div class="product-card">
     <div class="productoini">
-        <img class="bandera" src="assets/images/paises/ESPANA.png" alt="Pais">
-        <a href="/vinospage/bornosverdejo.php"><img class="vino-bottle" src="assets/images/productos vinos/bornosVendejo/BornosVendejo.jpg" alt=""></a>
+        <img class="bandera" src="assets/images/paises/Irlanda.png" alt="Pais">
+        <a href="/vinospage/baileyschurros.php"><img class="vino-bottle" src="assets/images/productos vinos/destilados/baileysChurros.jpg" alt=""></a>
         <div class="informacion">
-           <span class="precio">$328.00</span>
+           <span class="precio">$479.00</span>
            <span class="costo-envio">Envio Gratis</span>
-           <h2 class="product-title">Bornos Verdejo</h2>
+           <h2 class="product-title">Baileys Churros</h2>
            <div>
              <button class="btn-agregar" type="button">Agregar</button>
            </div>
@@ -108,11 +108,11 @@
     <div class="product-card">
       <div class="productoini">
         <img class="bandera" src="assets/images/paises/mexico.png" alt="Pais">
-        <a href="detallesproducto.php"><img class="vino-bottle" src="assets/images/productos vinos/jardin secreto/JardinSecreto.jpg" alt=""></a>
+        <a href="detallesproducto.php"><img class="vino-bottle" src="assets/images/productos vinos/gourmet/4Espiritus.jpg" alt=""></a>
         <div class="informacion">
-           <span class="precio">$504.00</span>
+           <span class="precio">$850.00</span>
            <span class="costo-envio">Envio Gratis</span>
-           <h2 class="product-title">Jardin Secreto 750ml</h2>
+           <h2 class="product-title">4 Espiritus Gran</h2>
            <div>
              <button class="btn-agregar" type="button">Agregar</button>
            </div>
@@ -123,11 +123,11 @@
     <div class="product-card">
       <div class="productoini">
         <img class="bandera" src="assets/images/paises/mexico.png" alt="Pais">
-        <a href="detallesproducto.php"><img class="vino-bottle" src="assets/images/productos vinos/jardin secreto/JardinSecreto.jpg" alt=""></a>
+        <a href="detallesproducto.php"><img class="vino-bottle" src="assets/images/productos vinos/mexicanos/Monte-Xanic-Gran-Ricardo.jpg" alt=""></a>
         <div class="informacion">
-           <span class="precio">$504.00</span>
+           <span class="precio">$1759.00</span>
            <span class="costo-envio">Envio Gratis</span>
-           <h2 class="product-title">Jardin Secreto 750ml</h2>
+           <h2 class="product-title">Monte Xanic Gran Ricardo</h2>
            <div>
              <button class="btn-agregar" type="button">Agregar</button>
            </div>

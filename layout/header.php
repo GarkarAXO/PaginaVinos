@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Equipo">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets//css/style.css">
@@ -10,33 +11,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
 </head>
-    <body >
+    <body >        
 <!---Inicio Header--->
     <header class="header">
         <div class="contentheader">
                 <input class="ctn-bar-search" type="text" name="" placeholder="¿Qué deseas buscar?" id="inputSearch">
                 <a href="#" class="logotipo"><img src="/assets/images/logo/logof1.png" alt="Logo VinoTics" width="190px"></a>
                 <ul class="menu-icon">
-                    <li class="usuario" id="user"><i class="fa-solid fa-user"></i></li>
-                    <li class="carrito" id="carrito-icon"><i class="fa-solid fa-cart-shopping"></i></li>
+
+                    <?php
+                    include("sesion.php");
+                    ?>
+
+                    <div class="carrito">
+                        <li id="carrito-icon"><i class="fa-solid fa-cart-shopping"></i></li>
+                        <span class="contador__items">1</span>
+                    </div>
                     <li class="search"><i class="fa-solid fa-magnifying-glass"></i></li>
                 </ul>
-
+<!--Carrito-->
                 <div class="cart">
                     <h5 class="cart__title text-center">Mi Carrito</h5>
                     <div class="cart__content">
-                        <div class="cart__box">
-
-                            <img src="/assets/images/productos vinos/bornosVendejo/BornosVendejo.jpg" alt="" class="cart__img">
-                            <div class="details__box">
-                                <div class="cart__product__title">Bornos Vendejo</div>
-                                <div class="cart__price">$328.00</div>
-                                <input type="number" value="1" class="cart__cantidad">
-                            </div>
-
-                            <!--Remover del carrito-->
-                            <i class="fa-solid fa-trash cart__remove"></i>
-                        </div>
+                    
                     </div> 
                     <!--Total-->   
                     <div class="total__cart">
